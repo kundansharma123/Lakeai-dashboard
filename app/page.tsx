@@ -138,7 +138,7 @@ export default function Home() {
             <div className="p-4 m-6 ml-0 bg-white rounded shadow-md w-1/4 text-center">
               <a href="#" className="mb-5 flex items-center justify-between ">
                 <span>Organisation</span>
-                <img
+                <Image
                   src="https://cdn-icons-png.flaticon.com/128/916/916771.png"
                   alt="Oragnisation icon "
                   className="w-8 h-8"
