@@ -153,7 +153,7 @@ export default function Home() {
             <div className="p-4 m-6 bg-white rounded shadow-md w-1/4 text-center">
               <a href="#" className="mb-5 flex items-center justify-between">
                 <span>Trains Bot</span>
-                <img
+                <Image
                   src="https://cdn-icons-png.flaticon.com/128/13330/13330989.png"
                   alt="Trains Bot icon "
                   className="w-8 h-8"
@@ -209,21 +209,21 @@ export default function Home() {
                   <td className="py-3 px-6 text-left">
                   <div className="flex flex-wrap">
                       <span className="break-all">
-                      "https://deployer-output.s3.ap-south-1.amazonaws.com/uploads/Resume.txt",
+                      "https://deployer-output.s3.ap-south-1.amazonaws.com/uploads/Resume.txt"
                       </span>
                     </div>
                   </td>
                   <td className="py-3 px-6 text-left">
                   <div className="flex flex-wrap">
                       <span className="break-all">
-                      "https://deployer-output.s3.ap-south-1.amazonaws.com/embedding/embeded-Resume.txt",
+                      "https://deployer-output.s3.ap-south-1.amazonaws.com/embedding/embeded-Resume.txt"
                       </span>
                     </div>
                   </td>
                   <td className="py-3 px-6 text-left">
                   <div className="flex flex-wrap">
                       <span className="break-all">
-                      $2b$10$6.Q1qiWaeMfhNGU4wA3EdOX1uU/wwTMo9W1mkMeDZ2ODk7vdlHVhO",
+                      $2b$10$6.Q1qiWaeMfhNGU4wA3EdOX1uU/wwTMo9W1mkMeDZ2ODk7vdlHVhO"
                       </span>
                     </div>
                   </td>
@@ -249,21 +249,21 @@ export default function Home() {
                   <td className="py-3 px-6 text-left">
                   <div className="flex flex-wrap">
                       <span className="break-all">
-                      "https://deployer-output.s3.ap-south-1.amazonaws.com/uploads/Resume.txt",
+                      "https://deployer-output.s3.ap-south-1.amazonaws.com/uploads/Resume.txt"
                       </span>
                     </div>
                   </td>
                   <td className="py-3 px-6 text-left">
                   <div className="flex flex-wrap">
                       <span className="break-all">
-                      "https://deployer-output.s3.ap-south-1.amazonaws.com/embedding/embeded-Resume.txt",
+                      "https://deployer-output.s3.ap-south-1.amazonaws.com/embedding/embeded-Resume.txt"
                       </span>
                     </div>
                   </td>
                   <td className="py-3 px-6 text-left">
                   <div className="flex flex-wrap">
                       <span className="break-all">
-                      $2b$10$6.Q1qiWaeMfhNGU4wA3EdOX1uU/wwTMo9W1mkMeDZ2ODk7vdlHVhO",
+                      $2b$10$6.Q1qiWaeMfhNGU4wA3EdOX1uU/wwTMo9W1mkMeDZ2ODk7vdlHVhO"
                       </span>
                     </div>
                   </td>
@@ -289,21 +289,21 @@ export default function Home() {
                   <td className="py-3 px-6 text-left">
                   <div className="flex flex-wrap">
                       <span className="break-all">
-                      "https://deployer-output.s3.ap-south-1.amazonaws.com/uploads/Resume.txt",
+                      "https://deployer-output.s3.ap-south-1.amazonaws.com/uploads/Resume.txt"
                       </span>
                     </div>
                   </td>
                   <td className="py-3 px-6 text-left">
                   <div className="flex flex-wrap">
                       <span className="break-all">
-                      "https://deployer-output.s3.ap-south-1.amazonaws.com/embedding/embeded-Resume.txt",
+                      "https://deployer-output.s3.ap-south-1.amazonaws.com/embedding/embeded-Resume.txt"
                       </span>
                     </div>
                   </td>
                   <td className="py-3 px-6 text-left">
                   <div className="flex flex-wrap">
                       <span className="break-all">
-                      $2b$10$6.Q1qiWaeMfhNGU4wA3EdOX1uU/wwTMo9W1mkMeDZ2ODk7vdlHVhO",
+                      $2b$10$6.Q1qiWaeMfhNGU4wA3EdOX1uU/wwTMo9W1mkMeDZ2ODk7vdlHVhO"
                       </span>
                     </div>
                   </td>
