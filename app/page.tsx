@@ -134,14 +134,15 @@ export default function Home() {
         {/* Main content */}
         <main className="flex-1 p-1 ">
           {/* Top stats */}
-          <div className="flex  mb-4 ">
+          <div className="flex  mb-0 ">
             <div className="p-4 m-6 ml-0 bg-white rounded shadow-md w-1/4 text-center">
               <a href="#" className="mb-5 flex items-center justify-between ">
                 <span>Organisation</span>
-                <img
+                <Image
                   src="https://cdn-icons-png.flaticon.com/128/916/916771.png"
                   alt="Oragnisation icon "
-                  className="w-8 h-8"
+                  height={50}
+                  width={50}
                   style={{
                     filter:
                       "invert(40%) sepia(100%) saturate(1000%) hue-rotate(190deg)",
@@ -153,10 +154,11 @@ export default function Home() {
             <div className="p-4 m-6 bg-white rounded shadow-md w-1/4 text-center">
               <a href="#" className="mb-5 flex items-center justify-between">
                 <span>Trains Bot</span>
-                <img
+                <Image
                   src="https://cdn-icons-png.flaticon.com/128/13330/13330989.png"
                   alt="Trains Bot icon "
-                  className="w-8 h-8"
+                  width={50}
+                  height={50}
                 />
               </a>
               <br />3
@@ -164,7 +166,7 @@ export default function Home() {
           </div>
           {/* <table>< */}
 
-          <div className="bg-white p-6 rounded-lg shadow-md fixed h-[400px] overflow-y-scroll scrollbar-hide">
+          <div className="bg-white p-5 rounded-lg shadow-md fixed h-[400px] overflow-y-scroll scrollbar-hide">
             <div className="flex justify-between items-center mb-4">
               <h2 className="text-xl font-semibold text-gray-800">
                 Trained Models
@@ -173,7 +175,7 @@ export default function Home() {
                 Add New Model
               </button>
             </div>
-             
+
             <table className="w-full table-auto">
               <thead>
                 <tr className="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
@@ -186,7 +188,7 @@ export default function Home() {
                   <th className="py-3 px-6 text-left">API</th>
                 </tr>
               </thead>
-              
+
               <tbody className="text-gray-600 text-sm font-light">
                 {/* data-1 */}
                 <tr className="border-b border-gray-200 hover:bg-gray-100">
@@ -194,7 +196,7 @@ export default function Home() {
                   <td className="py-3 px-6 text-left">
                     <div className="flex flex-wrap">
                       <span className="break-all">
-                      663bc8e59f582343ef66489e
+                        663bc8e59f582343ef66489e
                       </span>
                     </div>
                   </td>
@@ -207,23 +209,23 @@ export default function Home() {
                     </span>
                   </td>
                   <td className="py-3 px-6 text-left">
-                  <div className="flex flex-wrap">
+                    <div className="flex flex-wrap">
                       <span className="break-all">
-                      "https://deployer-output.s3.ap-south-1.amazonaws.com/uploads/Resume.txt"
+                        &quot;https://deployer-output.s3.ap-south-1.amazonaws.com/uploads/Resume.txt&quot;{" "}
                       </span>
                     </div>
                   </td>
                   <td className="py-3 px-6 text-left">
-                  <div className="flex flex-wrap">
+                    <div className="flex flex-wrap">
                       <span className="break-all">
-                      "https://deployer-output.s3.ap-south-1.amazonaws.com/embedding/embeded-Resume.txt"
+                        &quot;https://deployer-output.s3.ap-south-1.amazonaws.com/uploads/Resume.txt&quot;{" "}
                       </span>
                     </div>
                   </td>
                   <td className="py-3 px-6 text-left">
-                  <div className="flex flex-wrap">
+                    <div className="flex flex-wrap">
                       <span className="break-all">
-                      $2b$10$6.Q1qiWaeMfhNGU4wA3EdOX1uU/wwTMo9W1mkMeDZ2ODk7vdlHVhO"
+                        $2b$10$6.Q1qiWaeMfhNGU4wA3EdOX1uU/wwTMo9W1mkMeDZ2ODk7vdlHVhO
                       </span>
                     </div>
                   </td>
@@ -234,7 +236,7 @@ export default function Home() {
                   <td className="py-3 px-6 text-left">
                     <div className="flex flex-wrap">
                       <span className="break-all">
-                      663bc8e59f582343ef66489e
+                        663bc8e59f582343ef66489e
                       </span>
                     </div>
                   </td>
@@ -247,23 +249,23 @@ export default function Home() {
                     </span>
                   </td>
                   <td className="py-3 px-6 text-left">
-                  <div className="flex flex-wrap">
+                    <div className="flex flex-wrap">
                       <span className="break-all">
-                      "https://deployer-output.s3.ap-south-1.amazonaws.com/uploads/Resume.txt"
+                        &quot;https://deployer-output.s3.ap-south-1.amazonaws.com/uploads/Resume.txt&quot;
                       </span>
                     </div>
                   </td>
                   <td className="py-3 px-6 text-left">
-                  <div className="flex flex-wrap">
+                    <div className="flex flex-wrap">
                       <span className="break-all">
-                      "https://deployer-output.s3.ap-south-1.amazonaws.com/embedding/embeded-Resume.txt"
+                        &quot;https://deployer-output.s3.ap-south-1.amazonaws.com/uploads/Resume.txt&quot;{" "}
                       </span>
                     </div>
                   </td>
                   <td className="py-3 px-6 text-left">
-                  <div className="flex flex-wrap">
+                    <div className="flex flex-wrap">
                       <span className="break-all">
-                      $2b$10$6.Q1qiWaeMfhNGU4wA3EdOX1uU/wwTMo9W1mkMeDZ2ODk7vdlHVhO"
+                        $2b$10$6.Q1qiWaeMfhNGU4wA3EdOX1uU/wwTMo9W1mkMeDZ2ODk7vdlHVhO"
                       </span>
                     </div>
                   </td>
@@ -274,7 +276,7 @@ export default function Home() {
                   <td className="py-3 px-6 text-left">
                     <div className="flex flex-wrap">
                       <span className="break-all">
-                      663bc8e59f582343ef66489e
+                        663bc8e59f582343ef66489e
                       </span>
                     </div>
                   </td>
@@ -287,28 +289,27 @@ export default function Home() {
                     </span>
                   </td>
                   <td className="py-3 px-6 text-left">
-                  <div className="flex flex-wrap">
+                    <div className="flex flex-wrap">
                       <span className="break-all">
-                      "https://deployer-output.s3.ap-south-1.amazonaws.com/uploads/Resume.txt"
+                        &quot;https://deployer-output.s3.ap-south-1.amazonaws.com/uploads/Resume.txt&quot;{" "}
                       </span>
                     </div>
                   </td>
                   <td className="py-3 px-6 text-left">
-                  <div className="flex flex-wrap">
+                    <div className="flex flex-wrap">
                       <span className="break-all">
-                      "https://deployer-output.s3.ap-south-1.amazonaws.com/embedding/embeded-Resume.txt"
+                        &quot;https://deployer-output.s3.ap-south-1.amazonaws.com/uploads/Resume.txt&quot;{" "}
                       </span>
                     </div>
                   </td>
                   <td className="py-3 px-6 text-left">
-                  <div className="flex flex-wrap">
+                    <div className="flex flex-wrap">
                       <span className="break-all">
-                      $2b$10$6.Q1qiWaeMfhNGU4wA3EdOX1uU/wwTMo9W1mkMeDZ2ODk7vdlHVhO"
+                        $2b$10$6.Q1qiWaeMfhNGU4wA3EdOX1uU/wwTMo9W1mkMeDZ2ODk7vdlHVhO
                       </span>
                     </div>
                   </td>
                 </tr>
-                
               </tbody>
             </table>
           </div>
